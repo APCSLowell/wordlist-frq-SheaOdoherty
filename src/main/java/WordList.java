@@ -21,7 +21,7 @@ public class WordList
 
   public void removeWordsOfLength(int len)
   {
-    whil(i < myList.size()){
+    while(i < myList.size()){
       if(myList.get(i).length() == len){
         myList.remove(i);
       }else{
